@@ -1,0 +1,35 @@
+html, body {
+    margin:0px;
+    padding:0px;
+}
+
+#app {
+    display:flex;
+    width:100vw;
+    height:100vh;
+    margin:0px;
+    padding:0px;
+    /* background-color:black; */
+}
+
+#canvas {
+    position:absolute;
+    top:0; left:0; right: 0; bottom:0;
+    /* background-color:red; */
+}
+
+#toolbox {
+    display:block;
+    /* display:none; */
+    position:absolute;
+    right:20px;
+    width:500px;
+    height:auto;
+    top:0;
+    bottom:0;
+    margin-top: 20px;
+    margin-bottom:20px;
+    background-color:white;
+    -webkit-box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.24); 
+    box-shadow: 0px 0px 15px 0px rgba(0,0,0,0.24);
+}
